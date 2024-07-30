@@ -1,0 +1,88 @@
+/* Reset browser styles */
+/* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+   html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  body {
+    margin: 0;
+  }
+  
+  main {
+    display: block;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  a {
+    background-color: transparent;
+  }
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    -webkit-text-decoration: underline dotted; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /* Forms
+     ========================================================================== */
+  input::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+  }
+  
+  input:-ms-input-placeholder {
+    color: inherit;
+    opacity: 0.54;
+  }
+  
+  input::placeholder {
+    color: inherit;
+    opacity: 0.54;
+  }
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font: inherit; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  button,
+  select {
+    text-transform: none;
+  }
+  
+  /* Responsive
+     ========================================================================== */
+  @media (prefers-reduced-motion: reduce) {
+    /* Add your reduced motion styles here */
+  }
+  
